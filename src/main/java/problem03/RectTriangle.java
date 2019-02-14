@@ -4,7 +4,13 @@ public class RectTriangle extends Shape {
 	private double width;
 	private double height;
 
+//	public RectTriangle(double width, double height) {
+//	}
+
 	public RectTriangle(double width, double height) {
+		super();
+		this.width = width;
+		this.height = height;
 	}
 
 	@Override
@@ -17,4 +23,5 @@ public class RectTriangle extends Shape {
 	public double getPerimeter() {
 		return 0.;
 	}
+
 }
